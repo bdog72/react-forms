@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
+import BasicButton01 from './01BasicButton'
+import BasicButton02 from './02BasicButton'
 
 class App extends Component {
   render () {
     return <div>
-      <h1>Hello, World!</h1>
+      <BasicButton01 />
+      <hr />
+      <BasicButton02 />
     </div>
   }
 }
