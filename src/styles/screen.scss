@@ -8,12 +8,13 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 10px;
   font: $base-text-size / 1 $base-font-family;
 }
 
 .button {
   border: 1px solid black;
+  margin: 10px;
 }
 
 .button:active,
@@ -24,7 +25,6 @@ body {
 .button:active {
   background-color: white;
   box-shadow: 5px 5px #666;
-  // transform: translate3d(5px);
   transform: translateY(4px);
   transform: translateX(4px);
 }

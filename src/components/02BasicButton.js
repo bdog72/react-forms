@@ -34,6 +34,10 @@ export default class BasicButton02 extends Component {
         >
         DOH
         </button>
+        <select>
+          <option>A</option>
+          <option>B</option>
+        </select>
       </div>
     )
   }
