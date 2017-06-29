@@ -15,6 +15,7 @@ export default class BasicButton01 extends Component {
         <h1>What Do You Think Of React</h1>
         <h3>Check the console after you click the button</h3>
         <button
+          className='button'
           name='button-1'
           value='great'
           onClick={this.onGreatClick}
@@ -22,6 +23,7 @@ export default class BasicButton01 extends Component {
           Great
         </button>
         <button
+          className='button'
           name='button-2'
           value='amazing'
           onClick={this.onAmazingClick}

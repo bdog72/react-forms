@@ -11,3 +11,20 @@ body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
 }
+
+.button {
+  border: 1px solid black;
+}
+
+.button:active,
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  background-color: white;
+  box-shadow: 5px 5px #666;
+  // transform: translate3d(5px);
+  transform: translateY(4px);
+  transform: translateX(4px);
+}
