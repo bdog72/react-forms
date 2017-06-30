@@ -24,7 +24,9 @@ render () {
             placeholder='Name'
             ref='name'
           />
-          <input type='submit' />
+          <input
+            className='button'
+            type='submit' />
         </form>
         <div>
           <h3>Names</h3>

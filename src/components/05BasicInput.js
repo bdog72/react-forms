@@ -26,7 +26,9 @@ render () {
             value={this.state.name}
             onChange={this.onNameChange}
           />
-          <input type='submit' />
+          <input
+            className='button'
+            type='submit' />
         </form>
         <div>
           <h3>Names</h3>

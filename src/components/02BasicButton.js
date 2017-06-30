@@ -28,15 +28,18 @@ export default class BasicButton02 extends Component {
         </button>
         <button
           className='button'
-          name='bdog-1'
+          name='bdog-3'
           value='you the man'
           onClick={this.onButtonClick}
         >
-        DOH
+        DUH
         </button>
         <select>
           <option>A</option>
           <option>B</option>
+          <option>C</option>
+          <option>D</option>
+          <option>E</option>
         </select>
       </div>
     )

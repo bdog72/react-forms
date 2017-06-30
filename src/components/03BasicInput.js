@@ -14,7 +14,9 @@ export default class BasicInput03 extends Component {
           <input
             placeholder='Name'
             ref='name' />
-          <input type='submit' />
+          <input
+            className='button'
+            type='submit' />
         </form>
       </div>
     )
