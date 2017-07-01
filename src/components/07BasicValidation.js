@@ -64,7 +64,9 @@ export default class BasicValidation07 extends Component {
           />
           <span style={{ color: 'red' }}>{ this.state.fieldErrors.email }</span>
           <br />
-          <input type='submit' />
+          <input
+            className='button'
+            type='submit' />
         </form>
         <div>
           <h3>Names</h3>

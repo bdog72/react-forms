@@ -6,6 +6,8 @@ import BasicInput04 from './04BasicInput'
 import BasicInput05 from './05BasicInput'
 import StateInputMulti from './06StateInputMulti'
 import BasicValidation07 from './07BasicValidation'
+import Form from './08FieldComponent/Form'
+import CourseSelect from './09/CourseSelect'
 
 class App extends Component {
   render () {
@@ -24,6 +26,10 @@ class App extends Component {
         <StateInputMulti />
         <hr />
         <BasicValidation07 />
+        <hr />
+        <Form />
+        <hr />
+        <CourseSelect />
       </div>
     )
   }
